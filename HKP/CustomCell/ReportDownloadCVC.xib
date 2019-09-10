@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ReportDownloadCVC" id="gTV-IL-0wX" customClass="ReportDownloadCVC" customModule="HKP" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="103"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="140" height="103"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SGn-Ep-JLv" customClass="View" customModule="HKP" customModuleProvider="target">
+                        <rect key="frame" x="5" y="5" width="130" height="93"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="eIx-3a-INj" customClass="ImageView" customModule="HKP" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="130" height="93"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hpV-qq-h3x">
+                                <rect key="frame" x="0.0" y="0.0" width="130" height="93"/>
+                                <color key="backgroundColor" red="0.074509803921568626" green="0.46666666666666667" blue="0.84313725490196079" alpha="0.801606514084507" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94q-wu-uvv">
+                                <rect key="frame" x="10" y="10" width="20" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="Mf8-6l-EHJ"/>
+                                    <constraint firstAttribute="height" constant="22" id="ZQD-3a-D0D"/>
+                                </constraints>
+                                <state key="normal" image="pdf_icon"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HKP PAPER 2018" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o3Y-Kr-DJl" customClass="Label" customModule="HKP" customModuleProvider="target">
+                                <rect key="frame" x="8" y="34.5" width="114" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="3h6-3C-rj3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="lb"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Annual Growth" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMP-Vh-qQE" customClass="Label" customModule="HKP" customModuleProvider="target">
+                                <rect key="frame" x="8" y="48.5" width="114" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="Xff-pd-J3y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="11"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="lr"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="11"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xsw-QB-UZT" customClass="Button" customModule="HKP" customModuleProvider="target">
+                                <rect key="frame" x="26" y="70" width="78" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="78" id="KVm-bc-V9n"/>
+                                    <constraint firstAttribute="height" constant="15" id="hGl-hb-B54"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="9"/>
+                                <state key="normal" title="Download PDF">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textColorTypeAdapter">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontTypeAdapter" value="lr"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="9"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="7.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderColorTypeAdapter">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="o3Y-Kr-DJl" firstAttribute="centerY" secondItem="SGn-Ep-JLv" secondAttribute="centerY" constant="-3" id="307-Uu-nJt"/>
+                            <constraint firstAttribute="trailing" secondItem="o3Y-Kr-DJl" secondAttribute="trailing" constant="8" id="JI6-I7-yhk"/>
+                            <constraint firstAttribute="bottom" secondItem="eIx-3a-INj" secondAttribute="bottom" id="KyY-d2-7aj"/>
+                            <constraint firstAttribute="trailing" secondItem="hpV-qq-h3x" secondAttribute="trailing" id="Lcx-Fk-vjO"/>
+                            <constraint firstItem="hpV-qq-h3x" firstAttribute="top" secondItem="SGn-Ep-JLv" secondAttribute="top" id="QUR-u7-XFB"/>
+                            <constraint firstItem="94q-wu-uvv" firstAttribute="top" secondItem="SGn-Ep-JLv" secondAttribute="top" constant="10" id="Rab-sw-ysE"/>
+                            <constraint firstItem="wMP-Vh-qQE" firstAttribute="leading" secondItem="SGn-Ep-JLv" secondAttribute="leading" constant="8" id="Smh-kj-mRh"/>
+                            <constraint firstAttribute="bottom" secondItem="hpV-qq-h3x" secondAttribute="bottom" id="Xiy-sx-lH1"/>
+                            <constraint firstItem="94q-wu-uvv" firstAttribute="leading" secondItem="SGn-Ep-JLv" secondAttribute="leading" constant="10" id="a6M-w4-Txp"/>
+                            <constraint firstAttribute="bottom" secondItem="Xsw-QB-UZT" secondAttribute="bottom" constant="8" id="auw-2l-Sn3"/>
+                            <constraint firstItem="eIx-3a-INj" firstAttribute="top" secondItem="SGn-Ep-JLv" secondAttribute="top" id="ayE-3i-crk"/>
+                            <constraint firstAttribute="trailing" secondItem="wMP-Vh-qQE" secondAttribute="trailing" constant="8" id="bX5-Ve-dD7"/>
+                            <constraint firstItem="hpV-qq-h3x" firstAttribute="leading" secondItem="SGn-Ep-JLv" secondAttribute="leading" id="beS-xY-SZ4"/>
+                            <constraint firstAttribute="trailing" secondItem="eIx-3a-INj" secondAttribute="trailing" id="ldG-cW-lpl"/>
+                            <constraint firstItem="wMP-Vh-qQE" firstAttribute="top" secondItem="o3Y-Kr-DJl" secondAttribute="bottom" constant="-4" id="o4r-Vb-mh3"/>
+                            <constraint firstItem="eIx-3a-INj" firstAttribute="leading" secondItem="SGn-Ep-JLv" secondAttribute="leading" id="oDI-LI-MNH"/>
+                            <constraint firstItem="o3Y-Kr-DJl" firstAttribute="leading" secondItem="SGn-Ep-JLv" secondAttribute="leading" constant="8" id="yvO-rB-ecR"/>
+                            <constraint firstItem="Xsw-QB-UZT" firstAttribute="centerX" secondItem="SGn-Ep-JLv" secondAttribute="centerX" id="z2C-OH-a2c"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="SGn-Ep-JLv" secondAttribute="bottom" constant="5" id="6Pg-dT-ksk"/>
+                <constraint firstItem="SGn-Ep-JLv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="OS3-cQ-Rin"/>
+                <constraint firstAttribute="trailing" secondItem="SGn-Ep-JLv" secondAttribute="trailing" constant="5" id="aG9-EX-xfP"/>
+                <constraint firstItem="SGn-Ep-JLv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="zU9-xt-3bJ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="256" height="185"/>
+            <connections>
+                <outlet property="colorImgView" destination="hpV-qq-h3x" id="SUK-OL-Pu5"/>
+                <outlet property="downloadBtn" destination="Xsw-QB-UZT" id="h2v-l6-Y6h"/>
+                <outlet property="imgView" destination="eIx-3a-INj" id="Kvw-gs-Myi"/>
+                <outlet property="subLbl" destination="wMP-Vh-qQE" id="C86-dO-ITa"/>
+            </connections>
+            <point key="canvasLocation" x="192.5" y="126"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="6" width="821" height="868"/>
+        <image name="pdf_icon" width="25" height="29"/>
+    </resources>
+</document>

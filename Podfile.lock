@@ -1,0 +1,54 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - AlamofireJsonToObjects (2.4.1):
+    - Alamofire
+    - EVReflection
+  - DropDown (2.3.2)
+  - EVReflection (5.6.2):
+    - EVReflection/Core (= 5.6.2)
+  - EVReflection/Core (5.6.2)
+  - FSPagerView (0.7.2)
+  - IQKeyboardManagerSwift (6.1.1)
+  - NVActivityIndicatorView (4.3.0):
+    - NVActivityIndicatorView/Presenter (= 4.3.0)
+  - NVActivityIndicatorView/Presenter (4.3.0)
+  - Toaster (2.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - AlamofireJsonToObjects
+  - DropDown
+  - FSPagerView
+  - IQKeyboardManagerSwift
+  - NVActivityIndicatorView
+  - Toaster
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - AlamofireJsonToObjects
+    - DropDown
+    - EVReflection
+    - FSPagerView
+    - IQKeyboardManagerSwift
+    - NVActivityIndicatorView
+    - Toaster
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  AlamofireJsonToObjects: 2f652417f69ca86f229b704cdd00370bb892af45
+  DropDown: 7f87abecc28f9b4edad810fe1211c5c018c257e5
+  EVReflection: 640322f8a3aaf78cbc3c23892476b6adb636ebf0
+  FSPagerView: 7515f63c424da71623d299d4fbbfb3dd884642ff
+  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
+  NVActivityIndicatorView: 963f62bf9f993fcf23218e55958e5b1761b9504c
+  Toaster: a6c9532de1ded8105e77376f7dffeb2e12b46dbb
+
+PODFILE CHECKSUM: f1c6fd344d2fe182716fa1dc21c00524ee9eb309
+
+COCOAPODS: 1.5.3
